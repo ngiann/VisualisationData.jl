@@ -3,7 +3,12 @@ uuid = "33e6b0f2-e1e6-4837-8bdd-d818c49b0581"
 authors = ["ngiann <ngiann@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
 [compat]
+JLD2 = "0.4.30"
 julia = "1"
 
 [extras]
